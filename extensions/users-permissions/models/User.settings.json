@@ -53,9 +53,16 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "profile": {
-      "via": "user",
-      "model": "profile"
+    "slug": {
+      "type": "uid",
+      "targetField": "username"
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string"
     }
   }
 }
