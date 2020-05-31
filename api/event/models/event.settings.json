@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "community": {
+      "model": "community",
+      "via": "events"
+    }
+  }
+}
