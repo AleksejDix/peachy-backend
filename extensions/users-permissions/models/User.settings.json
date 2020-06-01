@@ -11,8 +11,6 @@
   "attributes": {
     "username": {
       "type": "string",
-      "minLength": 3,
-      "unique": true,
       "configurable": false,
       "required": true
     },
@@ -58,8 +56,7 @@
       "targetField": "username"
     },
     "firstName": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "lastName": {
       "type": "string"
