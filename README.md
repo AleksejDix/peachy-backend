@@ -2,4 +2,7 @@
 
 A quick description of your strapi application
 
-USE
+## Local Setup 
+
+
+https://tute.io/install-configure-strapi-postgresql
