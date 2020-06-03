@@ -12,13 +12,15 @@
     "username": {
       "type": "string",
       "configurable": false,
-      "required": true
+      "required": true,
+      "privat": true
     },
     "email": {
       "type": "email",
       "minLength": 6,
       "configurable": false,
-      "required": true
+      "required": true,
+      "privat": true
     },
     "provider": {
       "type": "string",
