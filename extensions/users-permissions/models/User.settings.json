@@ -13,14 +13,14 @@
       "type": "string",
       "configurable": false,
       "required": true,
-      "privat": true
+      "private": true
     },
     "email": {
       "type": "email",
       "minLength": 6,
       "configurable": false,
       "required": true,
-      "privat": true
+      "private": true
     },
     "provider": {
       "type": "string",
