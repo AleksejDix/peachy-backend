@@ -12,8 +12,7 @@
     "username": {
       "type": "string",
       "configurable": false,
-      "required": true,
-      "private": true
+      "required": true
     },
     "email": {
       "type": "email",
