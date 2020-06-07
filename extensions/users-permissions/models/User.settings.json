@@ -57,15 +57,15 @@
       "type": "uid",
       "targetField": "username"
     },
-    "firstName": {
-      "type": "string"
-    },
-    "lastName": {
+    "name": {
       "type": "string"
     },
     "orders": {
-      "via": "user",
-      "collection": "order"
+      "collection": "order",
+      "via": "user"
+    },
+    "stripeCustomerId": {
+      "type": "string"
     }
   }
 }
