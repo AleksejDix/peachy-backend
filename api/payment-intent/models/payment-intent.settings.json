@@ -1,0 +1,13 @@
+{
+  "collectionName": "payment_intents",
+  "info": {
+    "name": "paymentIntent",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

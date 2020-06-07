@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/payment-intents",
+      "handler": "payment-intent.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/payment-intents/:id",
+      "handler": "payment-intent.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payment-intents",
+      "handler": "payment-intent.create",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
