@@ -1,0 +1,13 @@
+{
+  "collectionName": "subscriptions",
+  "info": {
+    "name": "subscription",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {}
+}
