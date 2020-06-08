@@ -8,7 +8,7 @@ const stripe  = require('stripe')(strapi.config.get('server.stripe'));
 
 
 module.exports = {
-  create: async (ctx) => {
+  async create(ctx) {
     const customer = ctx.state.user.stripeCustomerId
     const { paymentMethodId, priceId: price }  = ctx.request.body
 
@@ -38,6 +38,14 @@ module.exports = {
 
     console.log(subscription)
 
-    return ctx.send(subscription)
+
+    return ctx.send(subscription.latest_invoice.payment_intent.status)
+  },
+  async delete(ctx) {
+    const { id } = ctx.request.body;
+
+    const deletedSubscription = await stripe.subscriptions.del(id);
+
+    res.send(deletedSubscription);
   },
 }
