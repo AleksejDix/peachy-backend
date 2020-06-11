@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_video_lessons",
+  "info": {
+    "name": "video lesson",
+    "icon": "film"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "videoid": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "course"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "schedule": {
+      "type": "dynamiczone",
+      "components": [
+        "course.video-lesson"
+      ]
+    }
+  }
+}
